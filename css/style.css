@@ -23,13 +23,15 @@ h1{
 /* FINE HEADER */
 
 /* MAIN */
+.container{
+    margin:0 auto;
+    width: 70%;  
+    margin-top: 50px;
+}
 /* CLASSI PULSANTI */
 .button-section{
     background-color: white;
-    margin:0 auto;
-    margin-top: 50px;
-    width: 70%;
-    height: 60px;
+     height: 60px;
     text-align: left;
     vertical-align:middle;  
     line-height: 3.5; 
@@ -42,6 +44,7 @@ h1{
     height: 30px;
     padding-left: 10px;
     padding-right: 10px;
+  
  }
 
  #task{
@@ -58,3 +61,16 @@ h1{
    border-color: gray;
  }
  /* FINE CLASSI PULSANTI */
+
+ .list-section{
+    background-color: white;
+
+    text-align: left;
+   
+  
+    padding-left: 60px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 60px;
+ }
