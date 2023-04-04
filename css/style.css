@@ -5,18 +5,21 @@
 }
 body{
     background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* HEADER */
 header{
    padding-left: 1%;
    background-color: white;
+   
 }
 .logo{
     vertical-align:middle;   
+    width: 80px;
 }
 h1{
     display: inline-block;  
-    font-size: 40px; 
+    font-size: 60px; 
     padding: 20px 5px;
     vertical-align:middle
 }
@@ -38,12 +41,14 @@ h1{
     padding-left: 60px;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    
 }
  button{
     height: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    font-weight: bold;
   
  }
 
@@ -110,7 +115,7 @@ h2{
     color: rgb(241, 57, 57);
     border-style: solid;
     border-radius: 50%;
-    padding-left: 3px;
+    padding-left: 5px;
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 3px;
@@ -127,6 +132,7 @@ h2{
     padding: 5px 10px 5px 10px;
     border-radius: 20px;
     color: white;
+    font-weight: bold;
 }
 
 .blue{
@@ -137,11 +143,17 @@ h2{
     background-color: blueviolet;
 }
 
-.green{
+.darkgreen{
     background-color: darkgreen;
 }
 
 .orange{
     background-color: orange;
 }
+ .pink{
+    background-color: deeppink;
+ }
 
+ .green{
+background-color: rgb(135, 207, 53);
+ }
