@@ -1,0 +1,32 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+/* HEADER */
+header{
+   padding-left: 1%;
+   background-color: white;
+}
+.logo{
+    vertical-align:middle;   
+}
+h1{
+    display: inline-block;  
+    font-size: 40px; 
+    padding: 20px 5px;
+    vertical-align:middle
+}
+/* FINE HEADER */
+
+/* MAIN */
+.button-section{
+    background-color: white;
+    margin:0 auto;
+   margin-top: 50px;
+    width: 70%;
+    height: 60px;
+}
