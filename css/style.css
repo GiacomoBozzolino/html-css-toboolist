@@ -64,13 +64,52 @@ h1{
 
  .list-section{
     background-color: white;
-
     text-align: left;
-   
-  
     padding-left: 60px;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
     margin-bottom: 10px;
     padding-bottom: 60px;
+    padding-top: 50px;
  }
+
+ /* INIZIO CLASSI LISTA */
+h2{
+    font-size: 35px;
+}
+.triangle{
+    font-size: 20px;
+}
+ ul{ 
+    list-style-type: none;
+    
+ } 
+ 
+ li{
+    font-size: 25px;
+    
+ }
+ .check{
+    display: inline-block;
+    color: rgb(96, 96, 251);
+    border-style: solid;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-width: 2px;
+    font-size: 10px;
+    vertical-align:middle;   
+    font-weight: bold;
+ 
+ }
+
+.editorial{
+    display: inline-block;
+    background-color: dodgerblue;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
